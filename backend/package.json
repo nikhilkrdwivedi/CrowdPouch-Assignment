@@ -1,0 +1,25 @@
+{
+  "name": "crowd-pouch-assignment-backend",
+  "version": "1.0.0",
+  "description": "this is backend app for crowd pouch assignment",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "nikhilkrdwivedi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.26.3",
+    "convert-video": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
